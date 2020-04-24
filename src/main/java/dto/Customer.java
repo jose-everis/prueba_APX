@@ -3,9 +3,14 @@ import java.io.Serializable;
 
 public class Customer implements Serializable{
 	
-	/**
-	 * 
-	 */
+	
+	public Customer(String name, String age, String birthDate, String country) {
+		this.name = name;
+		this.age = age;
+		this.birthDate = birthDate;
+		this.country = country;
+	}
+
 	private static final long serialVersionUID = 1L;
 	private String name;
 	private String age;
