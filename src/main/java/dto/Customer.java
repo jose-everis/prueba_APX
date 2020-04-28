@@ -10,6 +10,9 @@ public class Customer implements Serializable{
 		this.birthDate = birthDate;
 		this.country = country;
 	}
+	public Customer() {
+		
+	}
 
 	private static final long serialVersionUID = 1L;
 	private String name;
